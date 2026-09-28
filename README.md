@@ -43,17 +43,16 @@ The investigation established evidence of:
 - Suspicious use of rundll32.exe
 - Malicious/phishing infrastructure identified through threat intelligence
 
-Investigation Timeline
+## Investigation Timeline
 
-Time	    Event
-08:11:36	Suspicious email received containing perspiciatism.zip.
-09:16:08	Chrome created perspiciatism.zip in the Downloads directory.
-09:16:29	7-Zip created PERSPICIATISM.iso.
-09:16:43	Open_Document.exe and edputil.dll were created.
-09:16:53	Open_Document.exe was executed.
-09:16:54	cmd.exe was spawned to execute data\document.rtf.
-09:16:55	curl.exe retrieved 3291.png from an external URL.
-09:17:10	rundll32.exe executed 3291.png using GetModuleProp.
+- **08:11:36** — Suspicious email received containing `perspiciatism.zip`.
+- **09:16:08** — Chrome created `perspiciatism.zip` in the Downloads directory.
+- **09:16:29** — 7-Zip created `PERSPICIATISM.iso`.
+- **09:16:43** — `Open_Document.exe` and `edputil.dll` were created.
+- **09:16:53** — `Open_Document.exe` was executed.
+- **09:16:54** — `cmd.exe` was spawned to execute `data\document.rtf`.
+- **09:16:55** — `curl.exe` retrieved `3291.png` from an external URL.
+- **09:17:10** — `rundll32.exe` executed `3291.png` using `GetModuleProp`.
 
 ## MITRE ATT&CK Mapping
 
